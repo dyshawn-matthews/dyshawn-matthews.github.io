@@ -1,51 +1,77 @@
-/* Reset */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+/* BODY */
 body {
   font-family: Arial, sans-serif;
-  background: #0d1117;
+  background: radial-gradient(circle at top, #0b1a3a, #050b1a);
   color: white;
   padding: 20px;
 }
 
-/* Container */
+/* CONTAINER */
 .container {
   max-width: 900px;
   margin: auto;
 }
 
-/* Sections */
-.card {
-  background: #161b22;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
+/* NAV */
+nav {
+  margin-bottom: 30px;
 }
 
-/* Headings */
-h1, h2 {
+nav a {
+  color: #8ab4ff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CARD STYLE */
+.card {
+  background: rgba(20, 40, 90, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.2);
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 32px;
   margin-bottom: 10px;
 }
 
-/* Text */
+h2 {
+  margin-bottom: 15px;
+}
+
+/* TEXT */
 p {
   line-height: 1.6;
   text-align: left;
-  word-spacing: normal;
-  letter-spacing: normal;
 }
 
-/* Skills (chips) */
+/* SKILLS */
 .skills span {
   display: inline-block;
   background: #1f6feb;
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: 20px;
   margin: 5px;
   font-size: 14px;
+}
+
+/* SMALL TEXT */
+.small {
+  opacity: 0.8;
+  margin-top: 10px;
 }
