@@ -1,121 +1,94 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0b1020;
-  color: white;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dyshawn Matthews | IT Support Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-.header {
-  padding: 28px 20px;
-  text-align: center;
-  background-color: #121a33;
-}
+<body>
 
-h1 {
-  margin: 10px 0 5px;
-  font-size: 38px;
-}
+<header class="header">
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-.nav {
-  max-width: 1000px;
-  margin: 0 auto 10px;
-}
+  <div class="hero">
+    <p>IT Support • Help Desk • Technical Troubleshooting</p>
+    <h1>Dyshawn Matthews</h1>
 
-.nav a {
-  color: #aab3d6;
-  margin: 0 10px;
-  text-decoration: none;
-  font-size: 14px;
-}
+    <p>
+      IT Support Specialist with hands-on experience troubleshooting devices,
+      connectivity, and software issues. Building skills in IT and software development.
+    </p>
 
-.nav a:hover {
-  color: white;
-}
+    <a href="#contact">Contact Me</a>
+  </div>
+</header>
 
-.main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-}
+<main class="main">
 
-.card {
-  background-color: #121a33;
-  padding: 20px;
-  margin-bottom: 15px;
-  border-radius: 12px;
-}
+<section id="about" class="card">
+  <h2>About</h2>
+  <p>
+    I provide technical support daily, helping with device setup, data transfers, SIM activation,
+    and troubleshooting network and connectivity issues. I enjoy solving problems and helping
+    people understand technology in a simple, efficient way.
+  </p>
 
-h2 {
-  margin-top: 0;
-}
+  <p>
+    Based in Fairfield, CA • Open to IT Support / Help Desk opportunities
+  </p>
+</section>
 
-.pill {
-  display: inline-block;
-  padding: 7px 12px;
-  margin: 6px;
-  background-color: #1e2a4d;
-  border-radius: 20px;
-  font-size: 12px;
-}
+<section id="skills" class="card">
+  <h2>Skills</h2>
 
-.footer {
-  text-align: center;
-  padding: 15px;
-  color: #aab3d6;
-  font-size: 13px;
-}
-.hero {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
+  <span class="pill">Technical Support</span>
+  <span class="pill">Troubleshooting</span>
+  <span class="pill">iOS / Android Setup</span>
+  <span class="pill">Data Transfers</span>
+  <span class="pill">Network Connectivity</span>
+  <span class="pill">SIM Activation</span>
+  <span class="pill">Customer Support</span>
+  <span class="pill">Documentation</span>
+</section>
 
-.hero p {
-  max-width: 600px;
-  margin: 10px auto;
-}
-.hero {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-.card {
-  max-width: 800px;
-  margin: 0 auto 20px;
-  text-align: left;
-}
+<section id="projects" class="card">
+  <h2>Projects</h2>
 
-.card p {
-  max-width: 600px;
-  margin: 10px auto;
-  text-align: center;
-}
+  <p>
+    Troubleshooting Guide: Common issues such as device setup, data transfers, and network problems.
+  </p>
+</section>
 
-.main {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+<section id="contact" class="card">
+  <h2>Contact</h2>
 
-.hero p {
-  max-width: 600px;
-  margin: 10px auto;
-  text-align: center;
-}.hero p {
-  max-width: 600px;
-  margin: 10px auto;
-}
-.card p {
-  max-width: 600px;
-  margin: 10px auto;
-  text-align: left;
-  text-justify: none;
-  word-spacing: normal;
-  letter-spacing: normal;
-}
-.hero p {
-  max-width: 600px;
-  margin: 10px auto;
-  text-align: center;
-  word-spacing: normal;
-}
+  <p>Let’s connect:</p>
+
+  <p>
+    <a href="mailto:dyshawn.matthews6@gmail.com">dyshawn.matthews6@gmail.com</a>
+  </p>
+
+  <p>Fairfield, CA</p>
+
+  <p>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </p>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Dyshawn Matthews</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
