@@ -108,8 +108,13 @@ p, h1, h2, h3, div, span, section, article {
   word-spacing: normal !important;
   letter-spacing: normal !important;
   white-space: normal !important;
+}/* FIX: stop huge gaps between words */
+p, li, .tagline, .about p, .hero p {
+  text-align: left !important;
+  text-justify: auto !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
 }
-
 /* If any container is justifying text, kill it */
 .about, .about *, .card, .card * {
   text-align: left !important;
