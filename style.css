@@ -75,3 +75,8 @@ p {
   opacity: 0.8;
   margin-top: 10px;
 }
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
