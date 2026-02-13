@@ -75,3 +75,13 @@ h2 {
   max-width: 600px;
   margin: 10px auto;
 }
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 10px auto;
+}
