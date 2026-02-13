@@ -92,3 +92,9 @@
 
 </body>
 </html>
+p {
+  text-align: left !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  line-height: 1.6 !important;
+}
