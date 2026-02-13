@@ -102,3 +102,15 @@ text-align: justify;     /* spreads words out */
 letter-spacing: 2px;     /* too wide */
 word-spacing: 10px;      /* huge gaps */
 display: flex; justify-content: space-between;
+/* FORCE remove stretched spacing everywhere */
+p, h1, h2, h3, div, span, section, article {
+  text-align: left !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  white-space: normal !important;
+}
+
+/* If any container is justifying text, kill it */
+.about, .about *, .card, .card * {
+  text-align: left !important;
+}
