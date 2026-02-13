@@ -113,3 +113,9 @@ h2 {
   word-spacing: normal;
   letter-spacing: normal;
 }
+.hero p {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: center;
+  word-spacing: normal;
+}
