@@ -113,3 +113,29 @@ body{
   text-align: center;
   margin-bottom: 20px;
 }
+.card {
+  padding: 14px 16px;   /* was probably bigger */
+  margin: 10px 0;
+}
+.contact a {
+  color: #7db8ff;
+  font-weight: 500;
+}
+.list li {
+  margin: 8px 0;
+}
+.page {
+  width: min(800px, 90%);
+  margin: 40px auto;
+}
+.card {
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,.2);
+}
+body {
+  background: linear-gradient(135deg, #0b1220, #14213d);
+}
