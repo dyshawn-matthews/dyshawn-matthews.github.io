@@ -109,3 +109,7 @@ body{
   .grid{ grid-template-columns: 1fr; }
   .header h1{ font-size: 28px; }
 }
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
