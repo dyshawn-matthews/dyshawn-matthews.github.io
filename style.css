@@ -127,3 +127,18 @@ p {
   line-height: 1.6;
   text-align: center;
 }
+/* --- STOP BIG GAPS BETWEEN WORDS --- */
+#about p, .card p, p {
+  text-align: center !important;
+  text-align-last: center !important;  /* important if justify was used */
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  white-space: normal !important;
+}
+
+/* keep lines from getting too wide (reduces stretching) */
+#about p, .card p, p {
+  max-width: 60ch;
+  margin: 0 auto;
+  line-height: 1.6;
+}
