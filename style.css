@@ -80,3 +80,43 @@ p{
 }
 .skills span{
   background: #1f6feb;
+/* FIX WORD SPACING ISSUE */
+p {
+  text-align: center;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  white-space: normal !important;
+}
+
+/* PREVENT STRETCHING */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* KEEP TEXT FROM GETTING TOO WIDE */
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+  /* FIX WORD SPACING ISSUE */
+p {
+  text-align: center;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  white-space: normal !important;
+}
+
+/* PREVENT STRETCHING */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* KEEP TEXT FROM GETTING TOO WIDE */
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
