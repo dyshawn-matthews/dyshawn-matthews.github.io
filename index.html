@@ -2,87 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dyshawn Matthews | IT Support Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dyshawn Matthews | Resume</title>
   <link rel="stylesheet" href="style.css?v=1" />
 </head>
 
 <body>
-  <div class="container">
-
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <header class="hero">
+  <main class="page">
+    <header class="header">
       <h1>Dyshawn Matthews</h1>
-      <p class="small">IT Support • Help Desk • Technical Troubleshooting</p>
-      <a class="btn" href="#contact">Contact Me</a>
+      <p class="tagline">IT Support • Customer Service • Troubleshooting</p>
+
+      <div class="contact">
+        <a href="mailto:youremail@example.com">youremail@example.com</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/your-link" target="_blank" rel="noreferrer">LinkedIn</a>
+        <span>•</span>
+        <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
     </header>
 
-    <section class="card" id="about">
-      <h2>About</h2>
+    <section class="card">
+      <h2>Summary</h2>
       <p>
-        I provide technical support daily, helping with device setup, data transfers, SIM activation,
-        and troubleshooting network and connectivity issues. I enjoy solving problems and helping
-        people understand technology in a simple, efficient way.
-      </p>
-      <p class="small">
-        Based in Fairfield, CA • Open to IT Support / Help Desk opportunities
+        Customer-focused IT Support professional with experience troubleshooting devices, guiding users,
+        documenting issues, and resolving problems efficiently.
       </p>
     </section>
 
-    <section class="card" id="skills">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>Technical Support</span>
-        <span>Troubleshooting</span>
-        <span>iOS / Android Setup</span>
-        <span>Data Transfers</span>
-        <span>Network Connectivity</span>
-        <span>SIM Activation</span>
-        <span>Customer Support</span>
-        <span>Documentation</span>
+    <section class="grid">
+      <section class="card">
+        <h2>Skills</h2>
+        <ul class="list">
+          <li>Troubleshooting (iOS/Android/Windows)</li>
+          <li>Customer Support & Documentation</li>
+          <li>Networking Basics</li>
+          <li>Ticketing Tools (Zendesk/ServiceNow - if applicable)</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Tools</h2>
+        <ul class="list">
+          <li>Microsoft 365</li>
+          <li>Google Workspace</li>
+          <li>Remote Support</li>
+          <li>GitHub Basics</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-top">
+          <h3>Retail Sales / Team Lead</h3>
+          <p class="muted">T-Mobile Authorized Retailer • Fairfield/Richmond, CA</p>
+        </div>
+        <ul class="list">
+          <li>Resolved device and account issues while delivering a high-quality customer experience.</li>
+          <li>Supported team operations, coaching, and daily execution.</li>
+          <li>Documented issues and followed process to ensure accurate outcomes.</li>
+        </ul>
       </div>
     </section>
 
-    <section class="card" id="projects">
-      <h2>Projects</h2>
-      <p><strong>Troubleshooting Guide:</strong> Common issues such as device setup, data transfers, and network problems.</p>
-    </section>
+    <footer class="footer">
+      <p class="muted">© <span id="year"></span> Dyshawn Matthews</p>
+    </footer>
+  </main>
 
-    <section class="card" id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR_LINK" target="_blank" rel="noreferrer">YOUR_LINK</a></p>
-      <p>GitHub: <a href="https://github.com/dyshawn-matthews" target="_blank" rel="noreferrer">dyshawn-matthews</a></p>
-    </section>
-
-  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-<section class="card" id="contact">
-  <h2>Contact</h2>
-
-  <p>
-    Email:
-    <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
-  </p>
-
-  <p>
-    LinkedIn:
-    <a href="https://www.linkedin.com/in/YOUR_LINK_HERE/" target="_blank" rel="noreferrer">
-      YOUR_LINK_HERE
-    </a>
-  </p>
-
-  <p>
-    GitHub:
-    <a href="https://github.com/dyshawn-matthews" target="_blank" rel="noreferrer">
-      dyshawn-matthews
-    </a>
-  </p>
-</section>
